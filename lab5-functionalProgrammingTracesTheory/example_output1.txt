@@ -1,0 +1,19 @@
+D={(a,a),(a,b),(a,c),(b,a),(b,b),(b,d),(c,a),(c,c),(c,d),(d,b),(d,c),(d,d)}
+I={(a,d),(b,c),(c,b),(d,a)}
+FNF([w]) = (b)(ad)(a)(cb)
+digraph g{
+0 -> 3
+0 -> 1
+1 -> 2
+2 -> 5
+2 -> 4
+3 -> 5
+3 -> 4
+0[label=b]
+1[label=a]
+2[label=a]
+3[label=d]
+4[label=c]
+5[label=b]
+}
+=== Copy graph to: https://dreampuf.github.io/GraphvizOnline/ ===

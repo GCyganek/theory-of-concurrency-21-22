@@ -1,0 +1,19 @@
+D={(a,a),(a,b),(a,c),(a,d),(a,f),(a,h),(b,a),(b,b),(b,c),(b,d),(b,e),(b,f),(b,g),(b,h),(c,a),(c,b),(c,c),(c,d),(c,e),(c,h),(d,a),(d,b),(d,c),(d,d),(d,e),(d,f),(d,g),(d,h),(e,b),(e,c),(e,d),(e,e),(e,f),(e,g),(e,h),(f,a),(f,b),(f,d),(f,e),(f,f),(f,g),(g,b),(g,d),(g,e),(g,f),(g,g),(g,h),(h,a),(h,b),(h,c),(h,d),(h,e),(h,g),(h,h)}
+I={(a,e),(a,g),(c,f),(c,g),(e,a),(f,c),(f,h),(g,a),(g,c),(h,f)}
+FNF([w]) = (ae)(gc)(fh)(f)
+digraph g{
+0 -> 4
+1 -> 4
+1 -> 2
+2 -> 3
+3 -> 6
+4 -> 5
+0[label=a]
+1[label=e]
+2[label=g]
+3[label=f]
+4[label=c]
+5[label=h]
+6[label=f]
+}
+=== Copy graph to: https://dreampuf.github.io/GraphvizOnline/ ===

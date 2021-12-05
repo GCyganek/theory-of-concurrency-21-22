@@ -1,0 +1,10 @@
+A = {a,b,c,d,e,f,g,h}
+w = aegfchf
+(a) x := x+y
+(b) x := z+v
+(c) y := x-z
+(d) z := zxv
+(e) z := v-y
+(f) v := v+x
+(g) v := 3z
+(h) z := x+y
